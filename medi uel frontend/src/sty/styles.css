@@ -1,0 +1,316 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+  } */
+   .sdochd{
+    /* padding: 0 !important; */
+    /* width: 100%;
+    height: 150vh; */
+   }
+.container {
+  /* max-width: 600px;
+    margin: auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px; */
+  box-shadow: 20px 10px 20px #d9d9d9;
+
+  border-radius: 8px;
+}
+.content {
+  /* margin: auto; */
+  margin: 80px;
+  /* width: 1277.89px; */
+  /* height: 738.618px; */
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #f8f9fa;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.5);
+  /* border: 2px solid black; */
+}
+.form-group label {
+  margin: 0;
+}
+.cont {
+  border-radius: 10px;
+  border: solid #f8f9fa;
+  background: #d9d9d9;
+  box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.5);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0px 30px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.ultp {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  /* text-decoration: none; */
+}
+.ultp li a {
+  text-decoration: none;
+  color: black;
+}
+.appointments {
+  gap: 10px;
+  font-size: 12px;
+  color: #5e5e5e;
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+}
+.circle {
+  margin-left: 12px;
+  width: 25px; /* Set the width of the circle */
+  height: 25px; /* Set the height to the same value to make it a square */
+  background-color: #585858; /* Background color of the circle */
+  border-radius: 50%; /* Makes the element round */
+}
+.appop {
+  align-items: center;
+  display: flex;
+  border-radius: 12px;
+  background-color: rgb(17, 60, 73); /* display: flex; */
+  width: 280.85px;
+  /* height: 80px; */
+  padding: 24px 38px;
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  gap: 18px;
+}
+p {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 20px 0;
+}
+/* text-align:left; */
+.title {
+  /* font-size: 12px;
+    margin-bottom: 10px; */
+  color: #000000e6;
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.options {
+  display: flex;
+  /* gap: 10px; */
+  margin-bottom: 50px;
+  /* flex-wrap: wrap; */
+  display: flex;
+  /* width: 1153.398px; */
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  gap: 39px;
+}
+/* input{
+    width: 25.369px;
+height: 25.369px;
+  } */
+label {
+  color: #000000e6;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* margin-left: 16px; */
+}
+.appop label {
+  color: rgb(255, 255, 255);
+}
+.button {
+  width: 25px;
+  height: 25px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* border-radius: 50%; */
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.form-group {
+  /* display: flex; */
+  width: 606.66px;
+  /* flex-direction: column;
+align-items: flex-start; */
+  gap: 26px;
+  margin-bottom: 55px;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  /* width: ; */
+}
+.form-group input {
+  width: 100%;
+  /* align-self: stretch; */
+  border-radius: 8px;
+  /* background: #d9d9d9; */
+}
+.input {
+  width: 100%;
+  height: 54px;
+  /* width: 100px; */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.find-button {
+  margin-left: 440px !important;
+  border-radius: 8px;
+  background-color: rgb(17, 60, 73); /* display: flex; */
+  margin: auto;
+  color: rgb(255, 255, 255);
+  height: 65px;
+  width: 187px;
+  /* width: 100%; */
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 10px 0px;
+  margin-top: 20px;
+  /* background-color: #007BFF;
+    color: #fff; */
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+}
+
+/* 
+  .menu-content {
+    border: 1px solid #ccc;
+    padding: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+  }
+  
+  .menu-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-content li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .menu-content li:hover {
+    background-color: #f0f0f0;
+  } */
+
+.menu-content {
+  width: 530px;
+  height: 287px;
+margin-left: 125px;
+
+
+
+  position: absolute;
+  /* margin-left: 20px;
+  margin-top: 100px; */
+  /* margin-left: 650px; */
+  margin-top: 50px;
+  border: 1px solid #d9d9d9;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  cursor: pointer;
+
+  padding-right: 40px;
+  overflow-y: scroll;
+  min-height: auto;
+  max-height: 200px;
+}
+
+.menu-content::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  margin: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(17, 60, 73);
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(17, 60, 73);
+}
+
+.menu-content li {
+  /* border: 2px solid #d9d9d9; */
+  list-style: none;
+  margin-left: -25px;
+  /* border-radius: 10px; */
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  text-align: left;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding: 5px 5px;
+}
+
+/* .menu-content li:hover {
+  background-color: skyblue;
+} */
+
+.confirm-btn:hover {
+  background-color: #0056b3;
+}
+.menu-content li:hover {
+  background-color: rgb(17, 60, 73); /* Add hover effect */
+  color: rgb(255, 255, 255);
+  border-radius: 10px ;
+
+  /* width: 100%; */
+  /* height: 20px; */
+}
+
+.menu-content .empty-message {
+  text-align: center;
+  padding: 10px;
+  color: #999;
+}
+.close-menu {
+  margin-bottom: 20px;
+  margin-left: 180px;
+  margin-right: 50px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.station-menu .menu-content ul li.active {
+  background-color: skyblue;
+  font-weight: bold;
+  color: #333;
+}

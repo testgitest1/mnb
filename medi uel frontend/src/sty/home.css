@@ -1,0 +1,160 @@
+.hohd{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(179, 218, 217);  
+}
+
+.docsHead {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(179, 218, 217);
+}
+.dview p {
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-weight: 600;
+  padding-right: 10px;
+}
+.dvp {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+}
+.dvp button{
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+}
+.dbuttonhd button {
+  background-color: rgb(17, 60, 73);
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.c {
+  display: flex;
+  gap: 21px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  height: 55vh;
+  margin: auto;
+}
+/* .chead{
+  width: 100%;
+  height: 100vh;
+} */
+.tdn {
+  font-family: "Open Sans";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65.37px;
+  color: rgba(0, 0, 0, 1);
+}
+.cont {
+  width: 235px;
+  height: 235px;
+  background-color: rgb(17, 60, 73) !important;
+  text-align: center;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: auto; /* Center the items inside .c */
+}
+
+.cont p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: normal; */
+  padding: 63px 28px;
+}
+.consult-btn {
+  border: none;
+  background-color: rgb(179, 218, 217);
+  font-size: 32px;
+  cursor: pointer;
+  font-family: "Open Sans";
+  text-align: left;
+}
+.cb {
+  display: flex;
+  width: 703px;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 39px; */
+  margin: auto;
+}
+
+.cb p {
+  color: #000000e6;
+  font-family: "Open Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+.con:first-child {
+  width: 570px;
+  height: 32.238px;
+  align-self: stretch;
+  border-radius: 12px;
+  background-color: rgb(17, 60, 73);
+  /* border: 1px solid ; */
+}
+.con {
+  margin-top: 26px;
+  width: 380.611px;
+  height: 12.502px;
+  /* align-self: stretch; */
+  border-radius: 12px;
+  background-color: rgb(17, 60, 73);
+  /* border: 1px solid ; */
+}
+
+.a {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) repeat(1, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.cr {
+  /* background-color: rgba(217, 217, 217, 1); */
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 190px;
+}
+
+.cr p {
+  font-size: 20px;
+}
+
+.vpbtnn{
+  background-color: rgb(17,63,70) !important;
+  border-radius: 20px;
+  /* width: 150px; */
+  padding: 10px;
+  /* color: rgb(255, 255, 255); */
+}
+
+.cr button{
+  background-color: rgb(255, 255, 255);
+}

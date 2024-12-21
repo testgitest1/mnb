@@ -1,0 +1,241 @@
+.payhd{
+  width: 100%;
+  /* height: auto; */
+  height: 150vh;
+  background-color: rgb(179, 218, 217);
+}
+.cphd{
+  width: 100%;
+  /* height: auto; */
+  height: 150vh;
+  background-color: rgb(179, 218, 217);
+}
+.hmhd{
+  padding-bottom: 20%;
+  width: 100%;
+  
+  padding-left: 130px;
+  padding-top: 100px;
+  /* height: 100vh; */
+  background-color: rgb(179, 218, 217);
+}
+
+.revdetp input{
+  background-color: rgb(179, 218, 217) !important;
+border: none;
+color: rgba(124, 124, 124, 1);;
+}
+.revdetp select{
+  background-color: rgb(179, 218, 217) !important;
+  border: none;
+}
+.revdetp .react-datepicker__input-container input{
+  border: none;
+}
+.react-time-picker__wrapper{
+  background-color: rgb(179, 218, 217) !important;
+
+}
+.filhd{
+width: 100%;
+height: 200vh;
+  background-color: rgb(179, 218, 217);
+}
+.forwh .react-time-picker__wrapper{
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+.filcont {
+  display: flex;
+  /* margin: 110px 50px; */
+  padding: 110px 100px;
+  /* justify-content: space-between; */
+  /* gap: 30px; */
+}
+.qf{
+  align-items: center;
+  gap: 20px;
+}
+.filcont button {
+  border-radius: 76px;
+  width: 124px;
+  background-color: rgb(17, 60, 73);
+  color: rgb(179, 218, 217);
+  /* gap: 20px; */
+}
+
+.qf input {
+  margin-left: 50px;
+  width: 25px;
+  height: 25px;
+}
+.adc {
+  /* width: 1200px; */
+  /* margin: auto; */
+  margin-left: 60.42px;
+  margin-top: 50px;
+}
+
+.adc {
+  /* width: 100% !important; */
+  margin: 50px 61px !important;
+}
+.pcont {
+  width: 1306px;
+  height: 635px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.txtar {
+  width: 80%;
+  margin-left: 120px;
+  height: 200px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  background-color: rgba(243, 243, 243, 0.52);
+  padding: 30px 30px;
+}
+.txtar::-webkit-scrollbar {
+  width: 20px;
+}
+
+p {
+  font-weight: 100;
+}
+.hmcontpa {
+  /* width: 1300px !important; */
+  /* width: 1277px; */
+  height: 1061px;
+  /* margin-top: 300px !important; */
+  border-radius: 20px;
+  /* border: 1px solid rgba(248, 249, 250, 1); */
+  border: 1px solid grey;
+  /* border: 1px solid blue; */
+  box-shadow: 10px 10px 20px rgba(238, 238, 238, 0.5);
+  margin-left: 125px;
+  margin-bottom: 100px;
+}
+.hmcontpa p:first-child {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 700;
+}
+.revdetp p {
+  font-family: "Open Sans" !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  color: rgba(124, 124, 124, 1);
+}
+.revdetbtn button{
+  font-family: 'Open Sans';
+font-size: 24px;
+font-weight: 600;
+
+
+}
+.inpfw {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+}
+.fw {
+  /* display: grid;
+  grid-template-columns: repeat(1, 1fr) repeat(1, 1fr); */
+  /* column-gap: 50px; */
+  display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 920px;
+}
+.inpfw,
+.dpd {
+  width: 385px;
+  height: 50px;
+  border: none;
+  margin-top: 30px;
+  border-bottom: 1px solid black;
+}
+.inpfw:focus {
+  /* display:none; */
+  outline: none;
+}
+.react-datepicker__input-container input {
+  border: none;
+  outline: none;
+  background-color: white;
+  border-bottom: 1px solid;
+}
+.react-time-picker__clock {
+  display: none;
+}
+
+.paycont {
+  width: 1306px;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.pycon {
+  /* width: 1300px; */
+  margin-top: 50px;
+  /* width: 70%; */
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(238, 238, 238, 0.5);
+  /* margin: auto; */
+  margin-left: 65px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  /* padding-left: 40px;
+  padding-right: 30px;
+  padding-bottom: 30px; */
+  background-color: rgb(179, 218, 217);
+
+  /* border-radius: 20px; */
+    border: 1px solid rgba(248, 249, 250, 1);
+}
+.paycont button{
+  background-color: rgb(17, 60, 73) !important;
+  color: rgba(255, 255, 255, 1);
+}
+.inppay label {
+  margin: 0;
+}
+.rgtfil{
+  padding-left: 40px;
+}
+.rgtfil button{
+  height: 40px;
+  cursor: pointer;
+}
+.inppay input {
+  margin: 10px 0px;
+  width: 421px;
+  height: 65px;
+  /* border-radius: 20px; */
+    padding: 4px 15px;
+}
+
+.dprd .react-datepicker__input-container {
+  /* margin-left: 270px; */
+  margin-top: 20px;
+}
+/* class="react-time-picker react-time-picker--closed react-time-picker--disabled" */
+.tprd .react-time-picker--disabled {
+  /* margin-left: 265px; */
+}
+
+.tprd .react-time-picker__wrapper {
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.tprd .react-time-picker {
+  /* margin-left: 260px; */
+}
+
+.revbtn {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 600;
+}

@@ -1,0 +1,114 @@
+.adc {
+  width: 100%;
+  /* height: 100%; */
+  background-color: rgb(179, 218, 217);
+  /* overflow: hidden !important; */
+  margin: 0 !important;
+  /* padding: 0 !important; */
+  padding: 50px 65px;
+  /* margin-right: 80px !important; */
+}
+.hmcontpa {
+  margin: 0 !important;
+  padding: 0 0 100px 125px;
+}
+
+.upp p:first-child {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+}
+.upp p:nth-child(2) {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+}
+.upp p:nth-child(3) {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 400;
+}
+.upp p:nth-child(4) {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+}
+.upp p:nth-child(5) {
+  font-family: 'Open Sans';
+  font-size: 10px;
+  font-weight: 400;
+  color: rgba(68, 68, 68, 1);
+}
+.upp p {
+  margin: 0;
+  padding-top: 10px;
+}
+.bpdoc p:first-child {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: 600;
+}
+.bpdoc p:nth-child(2) {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 400;
+}
+.bpdoc p:nth-child(3) {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: 600;
+}
+.bpdoc p:nth-child(4) {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 400;
+}
+.fedoc p:first-child {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+}
+.fedoc p:nth-child(2) {
+  font-family: 'Poppins';
+  font-size: 36px;
+  font-weight: 700;
+}
+.propbtndoc button {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.shhd {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(179, 218, 217);
+}
+
+.shhd input:focus {
+  outline: none;
+}
+.shhd .menu-content {
+  margin-left: 150px !important;
+}
+
+.btnsss {
+  width: 123px;
+  height: 54px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+.citbtn {
+  /* background-color: rgb(17, 60, 73); */
+  /* color: rgb(255, 255, 255); */
+  color: black;
+  background-color: white;
+  border: 1px solid gray;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+}
